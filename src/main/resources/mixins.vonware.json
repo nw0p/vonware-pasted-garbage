@@ -1,0 +1,33 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "fat.vonware.mixin.mixins",
+  "refmap": "mixins.vonware.refmap.json",
+  "mixins": [
+    "MixinEntityPlayerSP",
+    "MixinEntityRenderer",
+    "MixinFontRenderer",
+    "MixinGuiContainer",
+    "MixinGuiScreen",
+    "MixinMinecraft",
+    "MixinNetworkManager",
+    "MixinPlayerControllerMP",
+    "MixinRenderEnderCrystal",
+    "MixinGuiConnecting",
+    "MixinWorldClient",
+    "MixinRenderLivingBase",
+    "IPlayerControllerMP",
+    "MixinItemRenderer",
+    "MixinRenderItem",
+    "accessor.IEntityRenderer",
+    "accessor.ICPacketUseEntity",
+    "accessor.IRenderManager",
+    "accessor.IEntityPlayerSP",
+    "MixinEntityLivingBase",
+    "MixinLayerArmorBase",
+    "MixinModelPlayer",
+    "MixinGuiNewChat",
+    "MixinWorld",
+    "accessor.ITimer"
+  ]
+}
